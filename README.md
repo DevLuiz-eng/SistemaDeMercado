@@ -29,5 +29,32 @@ O usuário pode interagir via terminal para adicionar produtos, listar itens, ap
 
 **Principais classes:**
 - `Produto.java`: representa os dados de um produto, com encapsulamento (getters/setters)
-- `
+- `ControleDeEstoque.java`: lida com a lógica de manipulação da lista de produtos
+- `Main.java`: interface principal com o usuário, onde o menu é exibido
 
+**Organização do código:**
+- Separação clara de responsabilidades por classe
+- Uso de `ArrayList` para armazenar os produtos
+- Menu interativo via `Scanner`
+- Mensagens amigáveis e validações básicas
+
+---
+
+## ▶️ Como Executar
+
+**Pré-requisitos:**
+- Java JDK 8+ instalado
+- IntelliJ IDEA ou outro editor compatível
+
+**Passos para executar:**
+
+```bash
+# Clone o repositório
+git clone https://github.com/DevLuiz-eng/controle-de-estoque-java.git
+
+# Acesse a pasta do projeto
+cd controle-de-estoque-java
+
+# Abra o projeto na sua IDE ou compile pelo terminal:
+javac Main.java
+java Main
